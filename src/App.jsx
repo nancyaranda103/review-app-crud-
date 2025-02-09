@@ -82,8 +82,8 @@ function handleInput(e) {
 async function login() {
   await account.createOAuth2Session(
 "github",
-"http://localhost:5173",
-"http://localhost:5173"
+"https://review-app-crud.vercel.app",
+"https://review-app-crud.vercel.app"
 
 
   );
